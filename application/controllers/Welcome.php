@@ -21,7 +21,12 @@ class Welcome extends CI_Controller
      */
     public function index()
     {
-        $tste = 'eu';
-        $this->load->view($teste)
+        $teste = 'eu';
+        $this->load->view($teste);
+
+        /**
+         * Modificação na branch 3 .... deverá ir para cssAuth para testes
+         * depois fazer o merge na master
+         */
     }
 }
