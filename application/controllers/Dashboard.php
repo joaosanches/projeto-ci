@@ -26,4 +26,8 @@ class Dashboard extends CI_Controller {
             redirect('admin/login', 'refresh');
         }
     }
+
+    /**
+     * comentário específico da master
+     */
 }
