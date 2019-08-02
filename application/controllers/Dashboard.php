@@ -26,4 +26,9 @@ class Dashboard extends CI_Controller
             redirect('admin/login', 'refresh');
         }
     }
+
+    /**
+     * Mias comentários .... comentários e comentários
+     * vai para testes e depois que estiver ok para master
+     */
 }
